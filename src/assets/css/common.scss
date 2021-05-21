@@ -1,0 +1,32 @@
+/*
+ * style css
+ * 全局样式文件：用于编写自定义的全局公用模块样式
+ */
+ 
+
+/* 引入elementUI自定义的样式 */
+@import "./localElementUI";
+
+/* 工具样式 */
+@import "./tools.scss";
+
+/* 引入字体图标样式 */
+@import "../font/iconfont.css";
+
+
+/* ================项目公共样式区域==================== */
+//加上该类则滚动条样式将改变
+.m-scroll::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 5px; /*高宽分别对应横竖滚动条的尺寸*/
+}
+.m-scroll::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.m-scroll::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}

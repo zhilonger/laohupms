@@ -1,0 +1,29 @@
+/*
+  ElementUI 本地自定义样式文件，
+  在本文件中定义个性化的ElementUI的样式内容，此内容将会在全局生效
+  自定义类名以.m-开头
+*/
+
+/* === el-pagination分页统一样式=== */
+.m-el-pagination{
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  .el-pagination{
+    .el-pagination__jump{
+      margin-left: 0
+    }
+  }
+}
+/* === el-dialog弹出框统一样式=== */
+.m-el-dialog{
+  text-align: center;
+  .el-dialog__header{}
+  .el-dialog__body{}
+  .el-dialog__footer{
+  }
+}
+/* === el-table表格统一样式=== */
+.m-el-table{
+  
+}
